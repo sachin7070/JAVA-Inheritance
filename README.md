@@ -33,3 +33,57 @@ class Superclass {
 class Subclass extends Superclass {
     // Subclass members
 }
+
+### Multilevel Inheritance
+
+Multilevel inheritance involves a chain of inheritance with each class extending the previous one. This creates a hierarchical relationship between classes.
+
+'''java
+class Grandparent {
+    // Grandparent members
+}
+
+class Parent extends Grandparent {
+    // Parent members
+}
+
+class Child extends Parent {
+    // Child members
+}
+
+
+### Hierarchical Inheritance
+
+Hierarchical inheritance involves one class serving as a superclass for multiple subclasses. Each subclass inherits from the same superclass.
+'''java
+class Animal {
+    // Animal members
+}
+
+class Dog extends Animal {
+    // Dog members
+}
+
+class Cat extends Animal {
+    // Cat members
+}
+
+
+### Multiple Inheritance (via Interfaces)
+
+Java doesn't support multiple inheritance of classes due to the diamond problem. However, it allows multiple inheritance through interfaces.
+
+'''java
+
+interface Interface1 {
+    // Interface1 members
+}
+
+interface Interface2 {
+    // Interface2 members
+}
+
+class MyClass implements Interface1, Interface2 {
+    // MyClass members
+}
+
