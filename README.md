@@ -16,3 +16,20 @@ Java inheritance serves several purposes:
 - **Superclass/Parent Class**: The class whose features are inherited is known as the superclass, base class, or parent class.
 - **Subclass/Child Class**: The class that inherits from another class is known as the subclass, derived class, extended class, or child class.
 - **Reusability**: Inheritance promotes code reuse by allowing the creation of new classes based on existing ones.
+
+## Types of Inheritance
+
+Java supports several types of inheritance:
+
+### Single Inheritance
+
+Single inheritance involves one class extending another class. In this type of inheritance, a subclass inherits from only one superclass.
+
+```java
+class Superclass {
+    // Superclass members
+}
+
+class Subclass extends Superclass {
+    // Subclass members
+}
